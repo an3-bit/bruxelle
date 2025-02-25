@@ -666,56 +666,139 @@ http://www.templatemo.com/tm-516-known
       TESTIMONIAL             
   -----------------------------------------*/
 
-  #testimonial .item {
-    background: #ffffff;
-    margin: 20px 0;
-    padding: 4em 3em;
-    text-align: left;
-  }
+  /*#testimonial .item {*/
+  /*  background: #ffffff;*/
+  /*  margin: 20px 0;*/
+  /*  padding: 4em 3em;*/
+  /*  text-align: left;*/
+  /*}*/
 
-  #courses .col-md-4,
-  #testimonial .col-md-4 {
-    display: block;
-    width: 100%;
-  }
+  /*#courses .col-md-4,*/
+  /*#testimonial .col-md-4 {*/
+  /*  display: block;*/
+  /*  width: 100%;*/
+  /*}*/
 
-  #testimonial .item > p {
-    font-size: 16px;
-    line-height: 26px;
-  }
+  /*#testimonial .item > p {*/
+  /*  font-size: 16px;*/
+  /*  line-height: 26px;*/
+  /*}*/
 
-  .tst-rating {
-    margin-bottom: 15px;
-  }
+  /*.tst-rating {*/
+  /*  margin-bottom: 15px;*/
+  /*}*/
 
-  .tst-rating .fa {
-    color: #3f51b5;
-  }
+  /*.tst-rating .fa {*/
+  /*  color: #3f51b5;*/
+  /*}*/
 
-  .tst-image,
-  .tst-author {
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 20px;
-    text-align: left;
-  }
+  /*.tst-image,*/
+  /*.tst-author {*/
+  /*  display: inline-block;*/
+  /*  vertical-align: middle;*/
+  /*  margin-bottom: 20px;*/
+  /*  text-align: left;*/
+  /*}*/
 
-  .tst-image img {
-    border-radius: 50px;
-    width: 60px !important;
-    height: 60px;
-    margin-right: 15px;
-  }
+  /*.tst-image img {*/
+  /*  border-radius: 50px;*/
+  /*  width: 60px !important;*/
+  /*  height: 60px;*/
+  /*  margin-right: 15px;*/
+  /*}*/
 
-  .tst-author h4 {
-    margin: 0;
-  }
+  /*.tst-author h4 {*/
+  /*  margin: 0;*/
+  /*}*/
 
-  .tst-author span {
-    color: #808080;
+  /*.tst-author span {*/
+  /*  color: #808080;*/
+  /*  font-size: 14px;*/
+  /*}*/
+
+/* Testimonial Section Styles */
+#testimonial {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.owl-client .item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.owl-client .item:hover {
+    transform: translateY(-5px);
+}
+
+.tst-image img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+
+.tst-author h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.tst-author span {
     font-size: 14px;
-  }
+    color: #777;
+}
 
+.tst-rating {
+    color: #f39c12;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 10px 0;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .owl-client .item {
+        padding: 20px;
+    }
+
+    .tst-image img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .tst-author h4 {
+        font-size: 16px;
+    }
+
+    .tst-author span {
+        font-size: 12px;
+    }
+
+    .tst-rating {
+        font-size: 14px;
+    }
+}
 
 
   /*---------------------------------------
@@ -1032,5 +1115,5 @@ http://www.templatemo.com/tm-516-known
       width: inherit;
       height: inherit;
     }
-  }
+  }}
   
